@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
- * declare main-outcome of put() funtion
+ * main - Entry point
+ *
  * Description-use main funtion
- * declare return: 0
+ * 
+ * Return: Always 0 (Success)
  */
 int main(void)
 {	
