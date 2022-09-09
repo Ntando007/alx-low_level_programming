@@ -4,7 +4,8 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{	int Intype;
+{
+	int Intype;
 	long int Longtype;
 	long long int Longlongtype;
 	char Chartype;
