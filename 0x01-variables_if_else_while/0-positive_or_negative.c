@@ -42,7 +42,7 @@ int main(void)
 	else
 	{
 
-	print("%d invalid\n", n)
+	print("%d invalid\n", n);
 	}
 	/* your code goes there */
 	return (0);
