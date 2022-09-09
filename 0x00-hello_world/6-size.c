@@ -5,11 +5,11 @@
  */
 int main(void)
 {
-	int Intype
-	long int Longtype
-	long long int Longlongtype
-	char Chartype
-	float Floattype
+	int Intype;
+	long int Longtype;
+	long long int Longlongtype;
+	char Chartype;
+	float Floattype;
 
 	printf("Size of a char: %lu bytes(s\n",sizeof(Chartype));
 	printf("Size of int: %lu bytes(s)\n", sizeof(Inttype));
