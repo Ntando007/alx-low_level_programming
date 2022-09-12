@@ -2,8 +2,9 @@
 #include <ctype.h>
 int main()
 {
-	c = tolwer(c);
-	putchar(c);
+	char c = tolwer(c);
+	putchar(tolwer(c));
+	putchar("\n")
 	/*putchar(tolower(c)*/
 	return (0);
 }
