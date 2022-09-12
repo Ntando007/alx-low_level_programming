@@ -3,8 +3,8 @@
 int main(void)
 {
 	char c, x;
-	x = tolwer(c);
-	putchar(tolwer(c));
+	x = tolower(c);
+	putchar(tolower(c));
 	putchar("\n")
 	/*putchar(tolower(c)*/
 	return (0);
