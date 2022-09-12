@@ -4,11 +4,13 @@
  * Return : value always 0 for (Success)
  */
 int main(void)
+
 	char c;
 	char x;
-	i
+	
 	for (c = 'a'; c <= 'z'; c++)
-	{	putchar(c);
+	{	
+		putchar(c);
 
 		for(x ='A'; x <= 'Z'; x++)
 		{	
