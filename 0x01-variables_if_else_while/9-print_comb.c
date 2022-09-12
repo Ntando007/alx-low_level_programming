@@ -1,0 +1,25 @@
+#include <stdio.h>
+/**
+ * main - Prints a combination of numbers separated by commas
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	int x;
+
+	for (x '0';x <= '9'; x++)
+	{
+		putchar(x);
+		
+		if (x != '9')
+		{
+			puthcar(',');
+			putchar(' ');
+		}
+
+	}
+
+	putchar('\n');
+
+	return (0);
+}
