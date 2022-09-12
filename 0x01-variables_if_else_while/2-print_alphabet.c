@@ -1,10 +1,12 @@
 #include <stdio.h>
-#include <ctype.h>
+/**
+ * main - Prints the alphabet c
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	char c, x;
-	x = tolower(c);
-	putchar(tolower(c));
+	char c;
+	for (c = 'a'; c <= 'z'; c++);
 	putchar('\n');
 	/*putchar(tolower(c)*/
 	return (0);
