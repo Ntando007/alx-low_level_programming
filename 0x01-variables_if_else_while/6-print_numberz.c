@@ -1,10 +1,7 @@
-nclude <stdio.h>
+#include <stdio.h>
 /**
- *
  * main - Compile code
- *
  * Description: Digits of base 10
- *
  * Return: Always 0 (Success)
  */
 int main(void)
