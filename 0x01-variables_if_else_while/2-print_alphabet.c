@@ -2,7 +2,7 @@
 #include <ctype.h>
 int main()
 {
-	char c = tolwer(c);
+	char c, x;
 	putchar(tolwer(c));
 	putchar("\n")
 	/*putchar(tolower(c)*/
