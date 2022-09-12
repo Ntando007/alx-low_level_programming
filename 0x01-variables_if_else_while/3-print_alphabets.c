@@ -4,7 +4,7 @@
  * Return : value always 0 for (Success)
  */
 int main(void)
-
+{
 	char c;
 	char x;
 	
@@ -19,3 +19,4 @@ int main(void)
 		}
 	{
 	return (0);
+}
