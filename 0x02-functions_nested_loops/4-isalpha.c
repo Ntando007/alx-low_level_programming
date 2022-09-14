@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - check and compile code
- *
+ * c-check alphabetic character
  * Return: Always 0
  */
 int _isalpha(int c)

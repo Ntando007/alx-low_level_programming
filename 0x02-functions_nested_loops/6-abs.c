@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * main - compile and check code
- *
+ * abs - value of interger
  * Return: Always 0
  */
 int _abs(int)

@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - compile code
- *
+ * void jack_bauer - show minutes
  * Return: Always 0
  */
 void jack_bauer(void)
