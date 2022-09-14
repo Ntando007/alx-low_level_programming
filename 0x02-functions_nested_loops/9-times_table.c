@@ -1,8 +1,7 @@
 #include "main.h"
 /**
  * main2 - compile code
- * times_table - show multiples of 
- * Return: Always 0
+ * void times_table(void) - show multiples of * Return: Always 0
  */
 void times_table(void)
 {
@@ -47,14 +46,10 @@ void times_table(void)
 
 				if (b < 9)
 				{
-					_putchar(',');
-					_putchar (' ');
+					_putchar(',');				_putchar (' ');
 				}
-
 			}
-
 		}
 		_putchar ('\n');
 	}
-
 }

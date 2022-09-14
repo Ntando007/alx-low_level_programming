@@ -2,7 +2,7 @@
 
 /**
  * main - Check and compile code
- * print_alphabet - show alphabet lowercase
+ * void print_alphabet(void) - show alphabet lowercase
  * Return: Value Always 0 (Success)
  */
 void print_alphabet(void)
