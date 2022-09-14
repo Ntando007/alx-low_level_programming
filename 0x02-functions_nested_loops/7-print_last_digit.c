@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include main.h
+#include "main.h"
 /**
  * main - compile code and check 
  *
  * Return:Always 0
  */
-int print_last_digit(int n)
+int end_number(int n)
 {
 	int end_number;
 
