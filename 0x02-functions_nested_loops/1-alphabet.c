@@ -5,9 +5,9 @@
  *
  * Return: Value Always 0 (Success)
  */
-int main(void)
+void print_alphabet(void)
 {
-	int print_alphabet(char c);
+	char c;
 		
 		for (c = 'a'; c <= 'z'; c++)
 			_puthcar(c);
