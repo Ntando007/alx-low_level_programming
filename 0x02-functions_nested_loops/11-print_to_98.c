@@ -3,7 +3,7 @@
 /**
  * main - compile code
  * print_to_98 - showing natural numbers
- * @n: number to start from
+ * @n: the number to start counts from n to 98
  * Return: Always 0
  */
 void print_to_98(int n)
