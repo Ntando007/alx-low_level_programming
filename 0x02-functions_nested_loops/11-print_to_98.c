@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * main - compile code
- * void print_to_98(int) - showing natural numbers 
+ * void print_to_98(int n) - showing natural numbers
  * Return: Always 0
  */
 void print_to_98(int n)
