@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * main - compile code
- * void print_to_98(int) - showing natural numbers
- * @n - number to start from
+ * print_to_98 - showing natural numbers
+ * @n: number to start from
  * Return: Always 0
  */
 void print_to_98(int n)
