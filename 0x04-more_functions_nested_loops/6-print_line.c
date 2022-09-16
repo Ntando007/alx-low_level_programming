@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_line - draw straight line in terminal
+ * @n - interger
  * Return: Always 0
  */
 void print_line(int n)
