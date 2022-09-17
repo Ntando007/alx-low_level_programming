@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Compile code
- * Return : value always 0 for (Success)
+ * Return: value always 0 for (Success)
  */
 int main(void)
 {
