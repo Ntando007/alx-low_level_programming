@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * puts_half - show half string
- * @str - value
+ * @str: value
  * Return: Success
  */
 void puts_half(char *str)
@@ -13,7 +13,7 @@ void puts_half(char *str)
 	i++;
 	for (i /= 2; str[i] != '\0'; i++)
 	{
-		_putchar(str[i]);
+		_putchar (str[i]);
 	}
 	_putchar('\n');
 }
