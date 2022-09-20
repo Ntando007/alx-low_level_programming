@@ -2,15 +2,14 @@
 /**
  * _puts - show string and puts to stdout
  * @str: string value
- * Return: Success
  */
 void _puts(char *str)
 {
-	int c;
+	int i;
 
-	for (c = 0; str[c] != '\0'; c++)
+	for (i = 0; str[c] != '\0'; i++)
 	{
-		_putchar(str[c]);
+		_putchar(str[i]);
 	}
 	_putchar('\n');
 }

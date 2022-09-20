@@ -1,20 +1,21 @@
 #include "main.h"
 /**
- * puts2(char *str) - show characters
- * @str - string
+ * puts2- show characters
+ * @str: string
  * Return: Success
  */
 void puts2(char *str)
 {
-	int c;
+	int c = 0;
 
-	for (c = 0; str[c] != '\0'; c++)
+	while (str[c] != '\0')
 	{
 		if (c % 2 == 0)
 		{
 
 			_putchar(str[c]);
 		}
+		c++;
 	}
 
 	_putchar ('\n');
