@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _atoi - converts string
+ * _atoi - converts string to interger
  * @s: value
  * Return: Success
  */
@@ -24,4 +24,3 @@ int _atoi(char *s)
 	res *= sign;
 	return (res);
 }
-
