@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _strcpy - copy string to src
- * @dest - value
- * @src - value
+ * @dest: value
+ * @src: value
  * Return: Success
  */
 char *_strcpy(char *dest, char *src)
@@ -14,7 +14,7 @@ char *_strcpy(char *dest, char *src)
 	{
 	}
 
-	for (l = 0; i <= l; i++)
+	for (i = 0; i <= l; i++)
 	{
 		dest[i] = src[i];
 	}
