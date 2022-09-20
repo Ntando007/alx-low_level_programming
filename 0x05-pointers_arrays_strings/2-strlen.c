@@ -1,13 +1,12 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * int _strlen - returns length of string
  * @s: char string 
  * Return: Always (Success)
  */
-int strlen(char *s)
+int _strlen(char *s)
 {
-	char *s;
+	char c;
 
 	s = i;
 	i = _strlen(s);
