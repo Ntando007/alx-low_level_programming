@@ -6,10 +6,12 @@
  */
 int _strlen(char *s)
 {
-	char c;
+	int i;
 
-	s = i;
-	i = _strlen(s);
-	printf("%d\n", i);
-	return (0);
+	i = 0;
+	while (s[i] != '\0')
+	{
+	i++;
+	}
+	return (i);
 }
