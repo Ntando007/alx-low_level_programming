@@ -7,9 +7,9 @@ void print_most_numbers(void)
 {
 	int x;
 
-	for (x = 20; x < 30; x++)
+	for (x = 18; x < 28; x++)
 	{
-		if (x != 22 && x != 24)
+		if (x != 20 && x != 22)
 		{
 			_putchar(x);
 		}
