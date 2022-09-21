@@ -11,7 +11,7 @@ void print_most_numbers(void)
 	{
 		if (x != 20 && x != 22)
 		{
-			_putchar(x);
+		_putchar(x);
 		}
 	_putchar(10);
 	}
