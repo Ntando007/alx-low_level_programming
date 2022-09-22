@@ -12,7 +12,7 @@ void more_numbers(void)
 		{
 			if ( b > 9)
 			{
-				_putchar((x / 10) + 30;
+				_putchar((a / 10) + 30;
 			}
 			_putchar((b % 10) + 30);
 		}
