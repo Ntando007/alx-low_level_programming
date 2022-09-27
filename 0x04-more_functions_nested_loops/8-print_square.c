@@ -4,7 +4,7 @@
  * @size - show number of lines
  * Return: Success
  */
-void print_square)int size)
+void print_square(int size)
 {
 	int a;
 	int b;
