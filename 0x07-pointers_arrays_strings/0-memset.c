@@ -17,4 +17,5 @@ char *_memset(char *s, char b, unsigned int n)
 		s[i] = b; //access i and constat to b
 	}	
 	
-	return (s); //pointer to memory area s}
+	return (s); //pointer to memory area s
+}
