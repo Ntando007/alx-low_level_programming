@@ -21,7 +21,7 @@ char *_strstr(char *haystack, char *needle)
 
 			if (haystack[i] != needle[i])
 			break;
-		}
+		
 			if (i != s)
 			haystack++;
 
@@ -29,6 +29,8 @@ char *_strstr(char *haystack, char *needle)
 			{
 			return haystack;
 			}
+		}
 	}
+		
 	return NULL;
 }
