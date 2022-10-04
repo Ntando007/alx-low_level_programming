@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_chessboard - display chessboard 
+ * print_chessboard - display chessboard
  * @a: string
  *
  * Return: Always success
