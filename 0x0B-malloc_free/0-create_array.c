@@ -10,6 +10,10 @@ char *create_array(unsigned int size, char c)
 {
 	unsigned int s;
 	int i;
+<<<<<<< HEAD
+=======
+	/*char c;*/
+>>>>>>> 3b9b29908a6b0fb09e78c44596c7ea229265fa9e
 
 	if (size <= 0)
 		return (0);
