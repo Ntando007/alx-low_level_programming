@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  *
- * @argc: Counts the number of parameters 
+ * @argc: Counts the number of parameters
  * @argv: Pointer of array
  * Return: Always 0 (Success)
  */
