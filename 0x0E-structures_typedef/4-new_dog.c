@@ -12,16 +12,16 @@ char *_copy(char *src)
   char *p;
   int x;
   int y;
-  
+
   if (src == NULL)
   {
     return (NULL);
   }
-  
+
   for (y = 0; src[y] != '\0'; y++)
     ;
   p = malloc(sizeof(char) * (y + 1));
-  
+
   if (p == NULL)
 	{
 		return (NULL);
