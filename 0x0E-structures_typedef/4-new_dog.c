@@ -23,7 +23,7 @@ char *_copy(char *src)
   
   for (y = 0; src[y] != '\0'; y++)
     ;
-  p = malloc(sizeof(char) * (len + 1));
+  p = malloc(sizeof(char) * (y + 1));
   
   if (p == NULL)
 	{
