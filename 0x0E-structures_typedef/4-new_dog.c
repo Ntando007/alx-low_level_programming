@@ -4,7 +4,6 @@
 /**
  * _copy - copy of elements
  * @src: source
- *
  * Return: Success
  */
 
@@ -42,7 +41,6 @@ char *_copy(char *src)
  * @name: name of dog
  * @age: age of dog
  * @owner: owner of dog
- *
  * Return: Success
  */
 
