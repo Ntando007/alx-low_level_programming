@@ -2,11 +2,8 @@
 #include "dog.h"
 
 /**
- * new-dog - creates new dog
- * copy - copy of elements
- * @name: character
- * @age: float
- * @owner: character
+ * _copy - copy of elements
+ * @src: source
  *
  * Return: Success
  */
@@ -38,7 +35,14 @@ char *_copy(char *src)
 	p[x] = '\0';
 	return (p);
 }
-
+/**
+ * new_dog - create a variable
+ * @name: character
+ * @age: float
+ * @owner: character
+ *
+ * Return: Success
+ */
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *dogname;
