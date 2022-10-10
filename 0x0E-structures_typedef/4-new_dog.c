@@ -7,6 +7,7 @@
  *
  * Return: Success
  */
+
 char *_copy(char *src)
 {
   char *p;
@@ -35,6 +36,7 @@ char *_copy(char *src)
 	p[x] = '\0';
 	return (p);
 }
+
 /**
  * new_dog - create a variable
  * @name: name of dog
@@ -43,6 +45,7 @@ char *_copy(char *src)
  *
  * Return: Success
  */
+
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *dogname;
