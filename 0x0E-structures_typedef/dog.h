@@ -8,7 +8,7 @@
  *
  * Return: Success
  */
-struct dog
+struct dog_t
 {
 	char *name;
 	char *owner;
