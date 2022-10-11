@@ -24,7 +24,11 @@ void print_dog(struct dog *d)
 	else
 		printf("Owner: %s\n", d->owner);
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 }			       
 >>>>>>> 4f67023605a0d15534217bf8f6a33522a00f346f
+=======
+}
+>>>>>>> e5290d1a34afc3e38214d01998ac2da53683b7f2
