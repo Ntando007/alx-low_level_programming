@@ -7,9 +7,10 @@
  * Return: Success
  *
  */
+
 char *_copy(char *src)
 {
-	char *p;
+	int *p;
 	int x;
 	int y;
 
@@ -18,9 +19,9 @@ char *_copy(char *src)
 		return (NULL);
 	}
 
-	for (y = 0; src[y]; != '\0'; y++)
+	for (y = 0; src[y] != '\0'; y++)
 		;
-	p = malloc(sizeof(char) * (len + 1));
+	p = malloc(sizeof(char) * (y + 1));
 
 	if (p == NULL)
 	{
@@ -34,8 +35,8 @@ char *_copy(char *src)
 
 	p[x] = '\0';
 	return (p);
-
 }
+
 /**
  * new_dog - Create a new dog variable
  * @name: Name of the dog
@@ -44,6 +45,7 @@ char *_copy(char *src)
  *
  * Return: Pointer to new dog variable
  */
+
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *dogname;
@@ -52,7 +54,6 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if (name == NULL || owner == NULL)
 	{
 		return (NULL);
-
 	}
 
 	dogname = malloc(sizeof(dog_t));
