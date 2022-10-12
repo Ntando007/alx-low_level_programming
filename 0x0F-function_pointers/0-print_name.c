@@ -1,0 +1,12 @@
+/**
+ * print_name - function to display name
+ * @name: name to print
+ * @f: function pointer
+ *
+ * Return: Always 0 (Success)
+ */
+void print_name(char *name, void (*f)(char *))
+{
+	if (name && f)
+		f(name);
+}
