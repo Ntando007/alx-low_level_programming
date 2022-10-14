@@ -11,12 +11,12 @@
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	register unsigned int i;
-	var_list num;
+	va_list num;
 
-	var_start(num, n);
+	va_start(num, n);
 	for (i = 0; i < n; i++)
 	{
-		char *str = var_arg(num, char *);
+		char *str = va_arg(num, char *);
 
 		if (str == NULL)
 		{
@@ -34,6 +34,6 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			}
 		}
 	}
-	var_end(num);
+	va_end(num);
 	printf("\n");
 }
