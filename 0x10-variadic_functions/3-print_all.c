@@ -7,7 +7,7 @@
  * @argptr: argument list pointer to character to be printed
  */
 
-void print_char(va_list argptr)
+void print_char(va_list list)
 {
 	char c;
 
@@ -20,7 +20,7 @@ void print_char(va_list argptr)
  * @argptr: argument list pointer to integer to be printed
  */
 
-void print_int(va_list argptr)
+void print_int(va_list list)
 {
 	int num_i;
 
@@ -33,7 +33,7 @@ void print_int(va_list argptr)
  * @argptr: argument list pointer to float to be printed
  */
 
-void print_float(va_list argptr)
+void print_float(va_list list)
 {
 	float num;
 
@@ -46,7 +46,7 @@ void print_float(va_list argptr)
  * @argptr: argument list pointer to string to be printed
  */
 
-void print_string(va_list argptr)
+void print_string(va_list list)
 {
 	char *str;
 
