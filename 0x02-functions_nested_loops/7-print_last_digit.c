@@ -8,19 +8,17 @@
  */
 int end_number(int n)
 {
-	int end_number;
-
-	if (n < 0)
-	{
-		end_number = (-1 *(n % 10));
-		_putchar (end_number + '0');
-		return (end_number);
-	}
-
-	else
-	{
-		end_number = (n % 10);
-		_putchar (end_number + '0');
-		return (end_number);
-	}
+int x;
+if (n < 0)
+{
+x = -1 * (n % 10);
+_putchar(x + '0');
+return (x);
+}
+else
+{
+x = n % 10;
+_putchar(x + '0');
+return (x);
+}
 }
