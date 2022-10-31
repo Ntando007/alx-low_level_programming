@@ -3,4 +3,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 unsigned int binary_to_uint(const char *b);
+<<<<<<< HEAD
+=======
+void print_binary(unsigned long int n);
+int _putchar(char c);
+int get_bit(unsigned long int n, unsigned int index);
+int set_bit(unsigned long int *n, unsigned int index);
+int clear_bit(unsigned long int *n, unsigned int index);
+unsigned int flip_bits(unsigned long int n, unsigned long int m);
+int get_endianness(void);
+>>>>>>> d15317de61ff23ff0a4e541c746acaadcb01a65a
 #endif
