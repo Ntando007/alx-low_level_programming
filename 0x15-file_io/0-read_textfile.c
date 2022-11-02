@@ -5,7 +5,7 @@
  * @filename: file name
  * @Return: Actual number of letters/ if not 0 or NULL 
  */
-ssize_t read_textfile(const char *filename, size_t letters);
+ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int r;
 	int w;
