@@ -10,37 +10,37 @@ int append_text_to_file(const char *filename, char *text_content)
 	int ap;
 	int r;
 	int w;
-	char *buffer = malloc(sizeof(char) * text_content);
+
 
 	if (ap == NULL)
 	{
-		return (-1);
+		text_content;
 	}
 
 	/* OPEN FILE */
 
-	ap = open(filename, O_RDWR | O_APPEND)
+	ap = open(filename, O_WRONLY | O_APPEND);
 	
-	if (ap == NULL)
-	{
-		return (-1);
-	}
-
-	/* READ FILE */
-
-	r = read(ap, buffer, text_content);
-	
-	if (r == NULL)
+	if (ap == -1)
 	{
 		return (-1);
 	}
 
 	/* WRITES */
-	w = write(STDOUT_FILENO, buffer, r);
-	if (w == 1)
-	{
-		return (1);
-	}
+	write(ap, text_content, r);
+
 	close(ap);
-	return (w);
+	return (1);
+
+	if (filename == NULL)
+	{
+		if (filename != NULL)
+		{
+			return (1);
+		}
+		else
+		{
+			return (-1);
+		}
+	}
 }
