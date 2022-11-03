@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_square - show a square
- * @size - show number of lines
+ * @size: show number of lines
  * Return: Success
  */
 void print_square(int size)
