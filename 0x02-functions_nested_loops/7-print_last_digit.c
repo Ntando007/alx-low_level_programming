@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include "main.h"
 /** 
- * end_number - show last number
+ * print_last_digit - show last number
  * Return: Always 0
  */
-int end_number(int n)
+int print_last_digit(int n)
 {
 int x;
 if (n < 0)
