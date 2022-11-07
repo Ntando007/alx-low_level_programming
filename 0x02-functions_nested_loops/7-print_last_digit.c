@@ -3,6 +3,7 @@
 #include "main.h"
 /**
  * print_last_digit - show last number
+ * @n: digit
  * Return: Always 0
  */
 int print_last_digit(int n)
