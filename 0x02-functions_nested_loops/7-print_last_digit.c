@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
-/**
- * main - compile code and check 
+/** 
  * end_number - show last number
- * Return:Always 0
+ * Return: Always 0
  */
 int end_number(int n)
 {
