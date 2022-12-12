@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 #ifndef _HOLBERTON_
 #define _HOLBERTON_
+=======
+#ifndef MAIN_H
+#define MAIN_H
+>>>>>>> a6b3b33e31c1667f5d8f43bfe14d88a6b09c9777
 
 int _putchar(char c);
 int _islower(int c);
