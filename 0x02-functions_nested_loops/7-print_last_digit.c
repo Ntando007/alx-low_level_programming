@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * main - compile code and check 
- * end_number - show last number
- * Return:Always 0
+ * print_last_digit - show last number
+ * @n: digit
+ * Return: Always 0
  */
-int end_number(int n)
+int print_last_digit(int n)
 {
 int x;
 if (n < 0)

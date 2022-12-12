@@ -1,4 +1,8 @@
 #include "main.h"
+/**
+ * main - displays output
+ * Return: Success
+ */
 
 int main(void)
 {
@@ -12,4 +16,4 @@ int main(void)
 	_putchar('r');
 	_putchar('\n');
 	return (0);
-}	
+}

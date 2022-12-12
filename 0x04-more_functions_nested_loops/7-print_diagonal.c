@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * print_diagonal - prints diagonal line throught terminal
- * @n - display number of lines
+ * @n: display number of lines
  * Return: Always 0
  */
 void print_diagonal(int n)
@@ -14,7 +14,7 @@ void print_diagonal(int n)
 	{
 		for (space = 0; space < i; space++)
 		{
-			_putchar(" ");
+			_putchar(' ');
 		}
 		_putchar('\\');
 		_putchar('\n');

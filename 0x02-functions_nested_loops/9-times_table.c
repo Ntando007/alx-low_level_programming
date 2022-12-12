@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main2 - compile code
- * void times_table(void) - show multiples of * Return: Always 0
+ * times_table - show multiples 
+ * Return: Always 0
  */
 void times_table(void)
 {
@@ -39,4 +39,3 @@ _putchar('\n');
 a++;
 }
 }
-
